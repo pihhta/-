@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* <!-- шапка страницы --> */
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    background: rgba(61, 1, 24, 0.736);
+}
+
+.logo__img {
+    width: 110%;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav__list {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main{
+    background: rgba(159, 107, 127, 0.736);
+}
+/* этапы бронирования */
+.section1{
+        margin-left: 15%;
+    margin-right: 15%;  
+    padding-bottom: 5%;
+}
+.s1__div{
+    display: flex;
+    justify-content: space-between;
+}
+.section1 h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.s1__img{
+    width: 150%;
+}
+
+.s1__list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 25%;
+    margin-top: 10%;
+    gap:15px;
+}
+
+.s1__item{
+text-align: center;
+
+}
+/* <!-- секция о компании --> */
+.s2__1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.s2__2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.s2__block{
+    width: 40%;
+    margin-right: 25%;
+    margin-left: 30%;
+    background: rgba(159, 107, 127, 0.736);
+}
+
+.s2__block__div{
+    display: flex;
+    padding-top: 2%;
+    margin-left: 10%;
+        margin-bottom: 3%;
+}
+
+.s2__photo{
+    width: 10%;
+    border-radius: 150px;
+}
+.s2__name{
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+}
+
+.s2__block p{
+text-align: justify;
+padding-bottom: 2%;
+margin: 0 10%;
+}
+/* <!-- секция блока для поиска --> */
+.s3__form{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+
+}
+
+.form{
+    width: 40%;
+    margin-right: 25%;
+    margin-left: 30%;
+    background: rgba(159, 107, 127, 0.736);
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1%;
+}
+
+.form__item{
+    text-align: center;
+    height: 40px;
+    font-size: 25px;
+}
+
+.section3{
+    padding-bottom: 2%;
+}
+/* секция с информацией об акциях компании  */
+.section4{
+padding-bottom: 4%;
+}
+.s4__block{
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    background: rgba(159, 107, 127, 0.736);
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2%;
+}
+.s4__block_1{
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    background: rgba(159, 107, 127, 0.736);
+    display: flex;
+    padding: 20px;
+}
+
+.s4__block__div{
+    display: flex;
+    flex-direction: column;   
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.s4__h2{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.s4__photo{
+    width: 300px;
+    height: 150px;
+    margin-top: 5%;
+}
+.s4__name{
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+}
+
+.s4__block p{
+text-align: justify;
+padding-bottom: 2%;
+margin-top: 5%;
+}
+
+.form4__item{
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 4%;
+}
+/* секция с информацией об акциях компании  */
+
+.s5__h2{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.s5__div{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    background: rgba(159, 107, 127, 0.736);
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.form5__item{
+    margin: 10px 20%;
+    padding: 10px;
+}
+/* подвал сайта */
+.footer{
+    background: rgba(159, 107, 127, 0.736);
+    text-align: center;
+}
+
+.footer p{
+    font-weight: 800;
+    font-size: 20px;
+    margin: 10px 20% 0 20%;
+    padding: 10px;
+}
